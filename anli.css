@@ -1,0 +1,181 @@
+
+```css
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.common {
+    width: 807px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 92px;
+    border-top: 1px solid #bfbfbf;
+    /* background-color: yellow;  */
+}
+
+.logo {
+    width: 217px;
+    height: 92px;
+    background-image: url(img/anlilogo.png);
+    float: left;
+}
+
+.headerright {
+    float: right;
+}
+
+/* 整体向右浮动 */
+.headerright ul {
+    list-style-type: none;
+    padding-top: 8px;
+    height: 38px;
+    line-height: 38px;
+}
+
+.headerright ul li {
+    float: left;
+}
+
+.headerright li a {
+    padding-left: 11px;
+    padding-right: 11px;
+    /* 或者padding: 0 11px; */
+    font-size: 11px;
+    border-right: 1px solid #b2c7ea;
+    color: #ababab;
+}
+
+/* a链接只是不可以设置宽高，可以设置padding,border */
+.headerright .col {
+    color: #eb6ca1;
+}
+
+/* 注意优先级 */
+.headerright .last {
+    padding-right: 0;
+    border: 0;
+}
+
+.search {
+    float: right;
+    width: 195px;
+    height: 23px;
+    border: 1px solid #d1d1d1;
+}
+
+.search input {
+    border: 0;
+    outline: none;
+    /* 去除input边框 */
+}
+
+.search button {
+    border: 0;
+}
+
+.search .left {
+    padding-left: 12px;
+    width: 167px;
+    height: 23px;
+    float: left;
+}
+
+.search .right {
+    float: right;
+    height: 23px;
+    width: 16px;
+    background: url(img/searchlogo.png) no-repeat left center;
+}
+
+.nav {
+    height: 44px;
+    /* width: 100%; */
+    background: #0c345c;
+    border-top: 1px solid #657588;
+    border-bottom: 1px solid #657588;
+}
+
+.nav ul {
+    list-style-type: none;
+    height: 44px;
+    line-height: 44px;
+}
+
+.nav ul li {
+    float: left;
+    list-style-type: none;
+    color: white;
+    font-size: 13px;
+    padding-right: 63px;
+}
+
+.banner {
+    /* width: 100%; */
+    height: 316px;
+    background: url(img/banner.png) no-repeat center;
+}
+
+.list {
+    margin-top: 42px;
+    height: 178px;
+    /* background: yellow; */
+}
+
+.list div {
+    float: left;
+    height: 176px;
+    width: 254px;
+    border: 1px solid #ffffff;
+    margin-right: 15px;
+}
+
+.list div p {
+    font-size: 13px;
+    padding-left: 29px;
+    height: 41px;
+    line-height: 41px;
+    /* padding: 0; */
+}
+
+.list .end {
+    margin-right: 0;
+}
+
+.list div img {
+    display: block;
+}
+
+/* 解决p标签和img之间缝隙 */
+.footer {
+    border-top: 1px solid #cccccc;
+    height: 181px;
+    background: url(img/bgjb.png);
+    /* 背景图片作为背景色，1px */
+}
+
+.footer ul {
+    height: 69px;
+    border: 1px solid #ecebeb;
+    line-height: 23px;
+    padding-top: 25px;
+    padding-bottom: 26px;
+    list-style-type: none;
+}
+
+.footer li {
+    padding-left: 24px;
+    width: 176px;
+    float: left;
+    font-size: 11px;
+    color: #000078;
+}
+
+.footer p {
+    padding-top: 20px;
+    padding-left: 24px;
+    font-size: 10px;
+    color: #000000;
+}
